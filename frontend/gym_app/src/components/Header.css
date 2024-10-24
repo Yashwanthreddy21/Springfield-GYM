@@ -1,0 +1,111 @@
+/* Header.css */
+
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul li {
+    margin: 0 15px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  ul li a:hover {
+    background-color: #555;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #d9534f;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c9302c;
+  }/* Header.css */
+
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    width: 100%; /* Ensures the header takes full width */
+    position: fixed; /* Keeps the header fixed at the top */
+    top: 0; /* Aligns the header to the top */
+    left: 0; /* Aligns the header to the left */
+    z-index: 1000; /* Ensures the header is on top of other elements */
+  }
+  
+  nav {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul li {
+    margin: 0 15px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  ul li a:hover {
+    background-color: #555;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #d9534f;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Add some margin to the top of the main content to avoid overlap with fixed header */
+  main {
+    margin-top: 80px; /* Adjust this based on the header height */
+  }
+  
+  
