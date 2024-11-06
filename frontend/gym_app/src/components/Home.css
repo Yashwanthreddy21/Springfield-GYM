@@ -33,3 +33,10 @@ body, html {
     color: #666;
   }
   
+  .home {
+    background-size: cover;      /* Ensures the image covers the whole area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;               /* Sets the height to cover the full viewport */
+    width: 100vw;                /* Sets the width to cover the full viewport */
+}

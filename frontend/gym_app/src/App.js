@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Login from './components/Login';
 import Register from './components/Register';
+import MembershipPlans from './components/MembershipPlans';
 import axios from 'axios'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/membership-plans" element={<MembershipPlans />} />
       </Routes>
     </Router>
   );

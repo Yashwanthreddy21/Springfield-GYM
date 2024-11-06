@@ -22,6 +22,9 @@ const Header = () => {
             <>
               <li><Link to="/login">Login</Link></li>
               <li><Link to="/register">Register</Link></li>
+              <li>
+                    <Link to="/membership-plans" style={{ color: '#fff', textDecoration: 'none' }}>Membership Plans</Link>
+                </li>
             </>
           ) : (
             <li><button onClick={handleLogout}>Logout</button></li>
